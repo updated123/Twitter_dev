@@ -7,6 +7,7 @@ const singleUploader = upload.single('image');
 const tweetService = new TweetService();
 
 export const createTweet = async (req, res) => {
+    console.log(req.body.params);
     try {
         singleUploader(req, res, async function (err, data) {
             if(err) {
