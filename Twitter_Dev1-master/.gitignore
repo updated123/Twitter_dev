@@ -3,9 +3,5 @@ node_modules
 jspm_packages
 
 # Serverless directories
-.serverless
 
 .env
-
-handler.js
-serverless.yml
